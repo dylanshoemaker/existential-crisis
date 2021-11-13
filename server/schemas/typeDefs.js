@@ -8,6 +8,7 @@ const typeDefs = gql`
     friendCount: Int
     thoughts: [Thought]
     friends: [User]
+    createdAt: String
   }
 
   type Thought {
